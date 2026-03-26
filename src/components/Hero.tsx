@@ -16,6 +16,9 @@ const Hero = () => {
         muted
         playsInline
         className="absolute inset-0 w-full h-full object-cover scale-[1.2]"
+        preload="auto"
+        // @ts-expect-error - fetchPriority is not yet in @types/react
+        fetchPriority="high"
       >
         <source
           src="https://69sfgmk1pv2omedb.public.blob.vercel-storage.com/new-templates/lorvique/Luxury_Jewelry_Commercial_Video_Generation-1.webm"
