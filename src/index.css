@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans text-lorvique-text bg-lorvique-light antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-normal;
+  }
+}
+
+/* Hide scrollbar for cleaner look if needed, but keep functionality */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F6F2; 
+}
+::-webkit-scrollbar-thumb {
+  background: #cccccc; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #999999; 
+}
