@@ -212,4 +212,3 @@ export const categoryData: Record<string, CategoryData> = {
     },
   },
 };
-

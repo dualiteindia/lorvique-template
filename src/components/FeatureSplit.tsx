@@ -109,4 +109,3 @@ const FeatureSplit: React.FC<FeatureSplitProps> = ({
 };
 
 export default FeatureSplit;
-
